@@ -1,11 +1,19 @@
 # To-Do-List
 ## Project 0
-A Python CLI (Command Line Interface) application. 
+A simple command-line to-do list application built in Python.
+This project demonstrates OOP design, file persistence with JSON, and user input validation.
+It allows users to manage their daily tasks directly from the terminal, offering features such as adding, editing, removing, and marking tasks as complete.
+The program also automatically saves tasks to a JSON file so that progress is never lost between sessions.
 
-## Application Requirements
-- CLI where users can interact with the application while it is running
-- Application should read in data from a file and be displayed in some way
-- Application should write data to a file
-- All user input should be validated (program should not end with exceptions based on user input)
-- Program must follow OOP design (classes/objects)
-- Application should be uploaded to a GitHub repository
+## Features
+- Add new tasks
+- Edit existing tasks
+- Remove tasks (with confirmation for incomplete tasks)
+- Mark tasks as complete
+- View:
+  - All tasks
+  - Completed tasks
+  - Uncompleted tasks
+- Clear all tasks
+
+All data is saved to tasks.json and automatically loaded on startup
